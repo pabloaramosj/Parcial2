@@ -13,7 +13,21 @@ public class Reserva {
         turno=Turno.MANANA;
     }
 
-//sisisi
+    public String getCodigoReserva() {
+        return codigoReserva;
+    }
+
+    public void setCodigoReserva(String codigoReserva) {
+        this.codigoReserva = codigoReserva;
+    }
+
+    public LocalDate getFechaUso() {
+        return fechaUso;
+    }
+
+    public void setFechaUso(LocalDate fechaUso) {
+        this.fechaUso = fechaUso;
+    }
 
     public Turno getTurno() {
         return turno;
@@ -21,5 +35,13 @@ public class Reserva {
 
     public void setTurno(Turno turno) {
         this.turno = turno;
+    }
+
+    public SituacionProceso getSituacionProceso() {
+        return situacionProceso;
+    }
+
+    public void setSituacionProceso(SituacionProceso situacionProceso) {
+        this.situacionProceso = situacionProceso;
     }
 }

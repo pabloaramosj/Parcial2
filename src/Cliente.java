@@ -1,7 +1,6 @@
 public class Cliente extends Persona{
     private String telefono;
     private String correoElectronico;
-    //sis
 
     Cliente (String nombreCompleto, String identificacion,String telefono, String correoElectronico){
         super(nombreCompleto,identificacion);

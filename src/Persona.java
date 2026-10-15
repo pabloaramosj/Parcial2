@@ -1,6 +1,6 @@
-public class Persona  {
-    private String nombreCompleto;
-    private String identificacion;
+public abstract class Persona  {
+    protected String nombreCompleto;
+    protected String identificacion;
     Persona(String nombreCompleto, String identificacion){
         this.nombreCompleto=nombreCompleto;
         this.identificacion=identificacion;
@@ -22,5 +22,5 @@ public class Persona  {
         this.identificacion = identificacion;
     }
 
-//sisisi
+
 }

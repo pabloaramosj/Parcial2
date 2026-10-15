@@ -1,3 +1,4 @@
 public class Empresa {
-    //sisi
+    private String nombre;
+    private String nit;
 }

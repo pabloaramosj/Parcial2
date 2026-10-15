@@ -3,5 +3,4 @@ public enum SituacionProceso {
     CONFIRMADA,
     CANCELADA,
     FINALIZADA
-    //sisisi
 }

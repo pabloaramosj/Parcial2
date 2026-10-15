@@ -10,14 +10,14 @@ public class MainPixelRent {
 
         int option = 0;
         do {
-            option = Integer.parseInt(JOptionPane.showInputDialog("===MENU PIXELRENT=== " +
+            option = Integer.parseInt(JOptionPane.showInputDialog("===MENU PIXELRENT=== ") +
                     "\n Seleccione una opcion:" +
                     "\n 1. Registrar Cliente." +
-                    "\n 2. Mostrar mascotas" +
-                    "\n 3. Buscar mascota por id" +
-                    "\n 4. Actualizar mascota" +
-                    "\n 5. Eliminar mascota" +
-                    "\n 0. Salir del sistema"));
+                    "\n 2. Registrar Operador" +
+                    "\n 3. Registrar Producto" +
+                    "\n 4. Crear reserva" +
+                    "\n 5. Mostrar reserva" +
+                    "\n 0. Salir del sistema");
 
             switch (option) {
 
