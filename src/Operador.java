@@ -6,5 +6,6 @@ public class Operador extends Persona{
         super(nombreCompleto, identificacion);
         this.certificado=certificado;
         this.experiencia=experiencia;
+        //sisis
     }
 }

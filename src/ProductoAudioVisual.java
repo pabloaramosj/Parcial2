@@ -4,7 +4,7 @@ public class ProductoAudioVisual {
         private String modelo;
         private double costoHora;
         private Disponibilidad disponibilidad;
-
+//sisisi
         ProductoAudioVisual(String codigo, String marca, String modelo, double costoHora){
             this.codigo=codigo;
             this.marca=marca;

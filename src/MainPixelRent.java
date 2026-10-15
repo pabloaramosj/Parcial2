@@ -4,6 +4,7 @@ public class MainPixelRent {
     private static Empresa nuevaEmpresa;
 
     static void main() {
+        //sisi
 
         nuevaEmpresa = new Empresa();
 
