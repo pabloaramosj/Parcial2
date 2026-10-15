@@ -52,3 +52,4 @@ public class MainPixelRent {
         } while (option != 0);
 
     }
+}
