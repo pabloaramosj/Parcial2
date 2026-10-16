@@ -6,7 +6,6 @@ public class MainPixelRent {
     static void main() {
         //sisi
 
-        nuevaEmpresa = new Empresa();
 
         int option = 0;
         do {

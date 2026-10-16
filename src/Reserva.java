@@ -5,12 +5,23 @@ public class Reserva {
     private LocalDate fechaUso;
     private Turno turno;
     private SituacionProceso situacionProceso;
+    private Cliente[] listCliente;
+    private Operador[]listOperadores;
+    private Camara[] listCamaras;
+    private Dron[] listDrones;
+    private KitLuces[] listKitLuces;
 
     Reserva(String codigoReserva, LocalDate fechaUso){
         this.codigoReserva=codigoReserva;
-
+        this.fechaUso=fechaUso;
         situacionProceso=SituacionProceso.SOLICITADA;
         turno=Turno.MANANA;
+        listCliente=new Cliente[10];
+        listOperadores=new Operador[10];
+        listCamaras=new Camara[10];
+        listDrones=new Dron[10];
+        listKitLuces=new KitLuces[10];
+
     }
 
     public String getCodigoReserva() {
@@ -45,4 +56,3 @@ public class Reserva {
         this.situacionProceso = situacionProceso;
     }
 }
-//s
