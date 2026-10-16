@@ -24,3 +24,4 @@ public class KitLuces extends ProductoAudioVisual {
         this.controlInalambrico = controlInalambrico;
     }
 }
+//

@@ -56,3 +56,4 @@ public class Reserva {
         this.situacionProceso = situacionProceso;
     }
 }
+//

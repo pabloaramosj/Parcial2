@@ -24,4 +24,4 @@ public class Operador extends Persona{
         this.experiencia = experiencia;
     }
 }
-//s
+//
