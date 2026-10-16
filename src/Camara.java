@@ -7,6 +7,6 @@ public class Camara extends ProductoAudioVisual{
         this.estabilizador=estabilizador;
         this.resolucionMaxima=resolucionMaxima;
 
-
+//ss
     }
 }

@@ -3,3 +3,4 @@ public enum Disponibilidad {
     EN_SERVICIO,
     FUERA_SERVICIO
 }
+//s
